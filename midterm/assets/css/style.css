@@ -1,0 +1,269 @@
+
+header {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 36px;
+    background: rgb(19, 19, 19);
+    color: rgb(248, 233, 233);
+    font-family: 'Playfair Display SC';
+    opacity: 100%;
+    position: fixed;
+    z-index: 1;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 37, 37);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(248, 233, 233);
+}
+a:visited {
+    text-decoration: none; 
+    color: rgb(248, 233, 233);
+}
+
+.bottom1 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: rgba(5, 44, 11, 0.518);
+    bottom:0px;
+    position: absolute;
+    bottom: -820;
+    width: 100%;
+}
+
+.bottom2 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: rgba(5, 44, 11, 0.518);
+    bottom:0px;
+    position: absolute;
+    bottom: -900;
+    width: 100%;
+}
+
+.bottom3 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: rgba(5, 44, 11, 0.518);
+    bottom:0px;
+    position: absolute;
+    bottom: -650;
+    width: 100%;
+}
+
+
+.navbar {
+    padding-right: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 17px;
+    gap: 50px;
+    position: relative;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(210, 31, 31);
+    transition: 0.3s; 
+}
+.navbar_item {
+    position: relative;
+    bottom: -12px;
+    color: rgb(248, 233, 233);
+}
+
+.navbar_item:hover {
+    cursor: pointer;
+    color: rgb(210, 31, 31);
+    transition: 0.3s;
+}
+
+#title {
+    padding-right: 80px;
+    font-size: 30px;
+    font-family: 'Playfair Display SC';
+    margin: -12px
+}
+
+#title:hover {
+    cursor: pointer;
+    color: rgb(210, 31, 31);
+    transition: 0.3s;
+}
+
+.image-card {
+    overflow: hidden;
+}
+
+.image-card img{
+    opacity: 80%;
+    width: 100%;
+    object-fit: fill;
+    margin-top: 50px;
+
+}
+
+.image-card img:hover {
+    cursor: default;
+}
+
+.image-card-text{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    bottom: 490px;
+    font-family: 'Playfair Display SC';
+}
+
+.image-text-2 {
+    font-size: 30px;
+}
+
+.image-text-3 {
+    position: relative;
+    font-size: 40px;
+    bottom: 149px;
+    text-align: center;
+    color: rgb(248, 233, 233);
+}
+
+.image-text-4 {
+    position: relative;
+    bottom: -85px;
+    text-align: center;
+    color: rgb(248, 233, 233);
+    font-size: 50px;
+    font-family: 'Playfair Display SC';
+}
+
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display SC';
+    justify-content: flex-start;
+    gap: 20px;
+    bottom: 23px;
+    padding-left: 50px;
+}
+.bottom-text-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.image-set {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: -120px;
+}
+
+
+.menu-set1 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: 200px;  
+    margin-top: 120px;
+}
+
+.menu-set2 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: 780px;  
+    margin-top: -1180px;
+}
+
+.image-set-card img{
+    width: 350px;
+    height: 350px;
+    opacity: 60%;  
+}
+
+.menu-set-card img{
+    width: 280px;
+    height: 280px;
+    opacity: 80%; 
+}
+
+.image-set-card img:hover {
+    opacity: 92%;
+    transition: 0.3s; 
+}
+
+.menu-set1 img:hover {
+    opacity: 100%;
+    transition: 0.3s; 
+}
+
+.menu-set2 img:hover {
+    opacity: 100%;
+    transition: 0.3s; 
+}
+
+.menu-text-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 25;
+    color: rgb(248, 233, 233);
+    font-family: 'Playfair Display SC';
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.menu-text-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20;
+    color: rgb(248, 233, 233);
+    font-family: 'Playfair Display SC';
+    padding-left: 115px;
+    padding-top: 10px;
+}
+
+.location img{
+    margin-top: 145px;
+    margin-left: 137px;
+}
+
+#oster {
+    padding-left: -20px;
+}
+
+#trofie {
+    padding-left: 10px;
+}
+
+#tort {
+    padding-left: 50px;
+}
+
+#ravi {
+    padding-left: 63px;
+}
+
+#spag {
+    padding-left: 5px;
+}
+
+#pepe {
+    padding-left: 30px;
+}
+
+
+   
